@@ -13,7 +13,7 @@ export default function Card({ imageSrc, title }) {
   useEffect(async () => {
     const colors = await prominent(imageSrc, { amount: 4 }, { group: 2000 });
     setGradient({
-      height: "150px",
+      height: "100%",
       width: "100%",
       background: `radial-gradient(
           circle at 0% 0%,
