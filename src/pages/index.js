@@ -21,7 +21,6 @@ const Index = ({ isVisible }) => {
         )
         .then((response) => {
           setGitHubData(response.data.items);
-          console.log(gitHubData);
         });
     } catch (error) {
       console.log(error);
@@ -32,11 +31,9 @@ const Index = ({ isVisible }) => {
     <Layout
       input={(e) => {
         value = e.target.value;
-        console.log(value);
       }}
       click={() => {
         setInputValue(value);
-        console.log(inputvalue);
       }}
     >
       {gitHubData.map((git) => (

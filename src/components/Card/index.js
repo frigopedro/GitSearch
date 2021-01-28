@@ -39,7 +39,6 @@ export default function Card({ imageSrc, title }) {
       borderTopLeftRadius: "25px",
       borderTopRightRadius: "25px",
     });
-    console.log(gradient);
   }, [imageSrc]);
   return (
     <div style={{ display: "inline-block", margin: "1rem" }}>

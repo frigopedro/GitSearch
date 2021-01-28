@@ -40,7 +40,7 @@ export const H1Header = styles.h1`
 `;
 
 export const GradientContainer = styles.div`
-height: 50vw;
+height: 1000px;
 
   width: 100vw;
   position: absolute;
